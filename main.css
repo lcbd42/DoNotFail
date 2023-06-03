@@ -1,0 +1,101 @@
+
+/* 
+    css 적용 우선순위: style > id > class > tag
+ */
+ body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), 
+    radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+ }
+
+.empty5{
+    width: 5%;
+    height: 200px;
+    float: left;
+    /* background: green; */
+}
+
+.empty10{
+    width: 10%;
+    height: 200px;
+    float: left;
+    /* background: green; */
+}
+
+.empty7{
+    width: 10%;
+    height: 200px;
+    float: left;
+    /* background: green; */
+}
+
+
+
+
+.logo{
+    width: 100px; 
+    padding: 30px;
+}
+
+.htb{
+    width: 1080px;
+    height: 200px;
+    background: #eee;
+    display: block; margin-left: auto; margin-right: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    background: cadetblue;
+}
+
+
+
+.htb-img{
+    width: 20%;
+    height: 200px;
+    float: left;
+    /* background: yellow; */
+}
+
+
+
+
+.htb-content{
+    width: 90%;
+    padding: 20px;
+}
+
+.ct{
+    width: 900px;
+    height: 200px;
+    /* background: #eee; */
+    display: block; margin-left: auto; margin-right: auto;
+}
+
+
+.ct-img{
+    width: 12%;
+    height: auto;
+    float: left;
+    background-color: cadetblue;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+    overflow: hidden;
+    transition: border 0.3s ease;
+}
+
+.ct-img:hover img {
+ 
+    border: 3px solid blue; /* hover 시 border 속성 변경 */
+}
+
+.middle-text{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.empty{
+    margin-top: 30px;
+}
